@@ -91,6 +91,7 @@ namespace mateAr_wf_PagoyEnvio
             this.bntCancelarDom.TabIndex = 15;
             this.bntCancelarDom.Text = "Cancelar";
             this.bntCancelarDom.UseVisualStyleBackColor = false;
+            this.bntCancelarDom.Click += new System.EventHandler(this.bntCancelarDom_Click);
             // 
             // btnGuardarDom
             // 

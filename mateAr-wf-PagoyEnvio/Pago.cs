@@ -10,7 +10,7 @@ namespace mateAr_wf_PagoyEnvio
     {
         private int idPago;
         private string formaPago;
-        private decimal montoPago;
+        private int montoPago;
         private DateTime fechaPago;
 
 
@@ -19,6 +19,8 @@ namespace mateAr_wf_PagoyEnvio
         public string FormaPago { get; set; }
         public decimal MontoPago { get; set; }
         public DateTime FechaPago { get; set; }
-       
+
+        
+
     }
 }

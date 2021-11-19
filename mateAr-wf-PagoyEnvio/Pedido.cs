@@ -10,11 +10,11 @@ namespace mateAr_wf_PagoyEnvio
     {
 
         private string idpedido;
-        private string importeTotal;
+        public int importeTotal;
         private DateTime fecha;
 
         public string Idpedido { get; set; }
-        public string ImporteTotal { get; set; }
+        public int ImporteTotal { get; set; }
         public string Tipo { get; set; }
         public DateTime Fecha { get; set; }
        

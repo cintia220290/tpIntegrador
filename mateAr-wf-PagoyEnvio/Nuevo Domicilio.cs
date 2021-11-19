@@ -30,5 +30,10 @@ namespace mateAr_wf_PagoyEnvio
             domicilio1.Provincia = txtProvincia.Text;
 
         }
+
+        private void bntCancelarDom_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
